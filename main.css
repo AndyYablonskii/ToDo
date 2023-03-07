@@ -1,0 +1,117 @@
+body{
+    /* background-color: #8A8AAA;
+    background-color: #3B3B71; */
+    background-image: linear-gradient(to right, #ada2ff, #d5cbf2);
+    font-family: 'Poppins';
+}
+
+.rectangleOne{
+    margin: 0 auto;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    background-color: #ffffff;      
+    width: 300px;
+    border-radius: 50px;
+    padding: 50px;
+
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.heading{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+
+    margin-bottom: -5px;
+}
+
+.subHeadingOne{
+    margin-bottom: 10px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #8A8AAA;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px;
+    
+}
+
+.subHeadingTwo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #8A8AAA;
+
+    margin-top: 20px;
+}
+
+.doneTasks{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px;
+}
+
+.tools{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 1px;
+    border-radius: 15px;
+
+}
+
+.addTask{
+
+
+    margin-right: 35px;
+    margin-left: 10px;
+    width: 100%;
+    height: 30px;
+
+    box-sizing: border-box;
+    border: 1 px;
+    border: transparent;
+}
+
+.addTask:focus{
+    border: transparent;
+    outline: none ;
+}
+
+.addTaskButton{
+    height: 30px;
+    width: 80px;
+    border-radius: 25px;
+    border: transparent;
+
+}
